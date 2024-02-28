@@ -24,11 +24,11 @@ public class CustomerRepository : ICustomerRepository
         var customer = _mapper.Map<Customer>(dto);
         var clientExist = await _dbContext.Customers.FirstOrDefaultAsync(c => c.NIP == customer.NIP);
         if (clientExist != null)
-           _logger.LogError("Customer already exists in database");
+            _logger.LogError("Customer already exists in database");
 
         _dbContext.Add(customer);
         await _dbContext.SaveChangesAsync();
-            _logger.LogInformation($"Created customer with ID : {customer.Id}");
+        _logger.LogInformation($"Created customer with ID : {customer.Id}");
 
         return customer.Id;
     }
@@ -85,11 +85,11 @@ public class CustomerRepository : ICustomerRepository
             _logger.LogError($"Customer with ID : {id} not found");
             return;
         }
-            
+
         _dbContext.Remove(customer);
         await _dbContext.SaveChangesAsync();
         _logger.LogInformation($"Removed customer with ID : {id}");
     }
- 
+
 
 }

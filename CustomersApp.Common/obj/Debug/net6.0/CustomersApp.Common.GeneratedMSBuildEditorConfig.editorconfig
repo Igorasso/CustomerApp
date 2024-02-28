@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomersApp.Common
-build_property.ProjectDir = C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Common\
+build_property.ProjectDir = C:\Users\Donigorasso\Documents\GitHub\CustomerApp\CustomersApp.Common\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

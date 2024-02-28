@@ -6,7 +6,7 @@ public class CustomerMappingProfile : Profile
 {
     public CustomerMappingProfile()
     {
-        
+
         CreateMap<Customer, CustomerDto>()
             .ForPath(m => m.Address.City, c => c.MapFrom(s => s.Address.City))
             .ForPath(m => m.Address.Street, c => c.MapFrom(s => s.Address.Street))
@@ -31,10 +31,5 @@ public class CustomerMappingProfile : Profile
                 Street = dto.Address.Street,
                 Country = dto.Address.Country
             }));
-
-
-
-
-
     }
 }

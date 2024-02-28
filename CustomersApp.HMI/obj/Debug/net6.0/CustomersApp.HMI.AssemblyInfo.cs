@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomersApp.HMI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b38bf08d2347e3a180b99113f31166a9c3075f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+837038f6a0a07c40a8179480d35ef5e6a9ab6153")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomersApp.HMI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomersApp.HMI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

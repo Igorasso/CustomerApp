@@ -29,7 +29,7 @@ public class CustomerController : ControllerBase
     }
     
     [HttpGet("{id}")]
-    public async Task<ActionResult<CustomerDto>> GetCustomerAsync([FromRoute] int id) // Swagger wywala blad ze nie moze byc FromBody
+    public async Task<ActionResult<CustomerDto>> GetCustomerAsync([FromRoute] int id)
     {
         var customersDtos = await _customerService.GetCustomerAsync(id);
         return Ok(customersDtos);

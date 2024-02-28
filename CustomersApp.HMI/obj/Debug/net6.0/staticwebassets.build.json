@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qc71QE40LnUX3U1CQ9DY0SxpCBZ+ilaEWwvfQ2Wsbt0=",
+  "Hash": "8wtnYymZgdcgPdzGpClUCtwRL7zyoc8Bs6tBEGos65s=",
   "Source": "CustomersApp.HMI",
   "BasePath": "_content/CustomersApp.HMI",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "CustomersApp.HMI\\wwwroot",
       "Source": "CustomersApp.HMI",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "Pattern": "**"
     }
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "C:\\Users\\Donigorasso\\.nuget\\packages\\blazor.bootstrap\\2.0.0\\staticwebassets\\pdfjs-4.0.379.worker.min.mjs"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CustomersApp.HMI.styles.css",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CustomersApp.HMI.styles.css",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "CustomersApp.HMI.styles.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CustomersApp.HMI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CustomersApp.HMI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CustomersApp.HMI.bundle.scp.css",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CustomersApp.HMI.bundle.scp.css",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "CustomersApp.HMI.bundle.scp.css",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CustomersApp.HMI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CustomersApp.HMI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\css\\site.css",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\favicon.ico",
       "SourceId": "CustomersApp.HMI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.HMI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\wwwroot\\",
       "BasePath": "_content/CustomersApp.HMI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

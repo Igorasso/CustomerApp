@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F/W9PVKd4ia0BFwcrXIjEmwU68eAVEdAwpByr3V9EzDrk4GziaRRdW1yJpqBzdwrThVM9s7V7lyPkkhV8XsJVw==",
+  "dgSpecHash": "A5wk+GfsvEpMUxIHA0SLQGDzKoE5gOQCiBofPULzNV+8IgbwBRjZ9YltAFad+sIKZCTvy+ySg0uQBlPP7zFIzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Donigorasso\\source\\repos\\CustomersServiceAppBlazor2\\CustomersApp.Common\\CustomersApp.Common.csproj",
+  "projectFilePath": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\CustomersApp.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Donigorasso\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Donigorasso\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
