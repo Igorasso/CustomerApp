@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F46FA266-A34B-497C-82C1-2B533CC99537}|CustomersApp.HMI\\CustomersApp.HMI.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.hmi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F46FA266-A34B-497C-82C1-2B533CC99537}|CustomersApp.HMI\\CustomersApp.HMI.csproj|solutionrelative:customersapp.hmi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.common\\extensions\\commonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|solutionrelative:customersapp.common\\extensions\\commonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F46FA266-A34B-497C-82C1-2B533CC99537}|CustomersApp.HMI\\CustomersApp.HMI.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.hmi\\shared\\displayallcustomerscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F46FA266-A34B-497C-82C1-2B533CC99537}|CustomersApp.HMI\\CustomersApp.HMI.csproj|solutionrelative:customersapp.hmi\\shared\\displayallcustomerscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F46FA266-A34B-497C-82C1-2B533CC99537}|CustomersApp.HMI\\CustomersApp.HMI.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.hmi\\shared\\deleteconfirmationdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F46FA266-A34B-497C-82C1-2B533CC99537}|CustomersApp.HMI\\CustomersApp.HMI.csproj|solutionrelative:customersapp.hmi\\shared\\deleteconfirmationdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.common\\customermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|solutionrelative:customersapp.common\\customermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.common\\services\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|solutionrelative:customersapp.common\\services\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.common\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01723883-2335-481B-A357-94BDFFAAA88E}|CustomersApp.Common\\CustomersApp.Common.csproj|solutionrelative:customersapp.common\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB772761-F304-4E15-8750-0791C9102053}|CustomersApp.Entities\\CustomersApp.Database.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.entities\\services\\customerseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB772761-F304-4E15-8750-0791C9102053}|CustomersApp.Entities\\CustomersApp.Database.csproj|solutionrelative:customersapp.entities\\services\\customerseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB772761-F304-4E15-8750-0791C9102053}|CustomersApp.Entities\\CustomersApp.Database.csproj|c:\\users\\donigorasso\\documents\\github\\customerapp\\customersapp.entities\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB772761-F304-4E15-8750-0791C9102053}|CustomersApp.Entities\\CustomersApp.Database.csproj|solutionrelative:customersapp.entities\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommonExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\Extensions\\CommonExtensions.cs",
+              "RelativeDocumentMoniker": "CustomersApp.Common\\Extensions\\CommonExtensions.cs",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\Extensions\\CommonExtensions.cs",
+              "RelativeToolTip": "CustomersApp.Common\\Extensions\\CommonExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T23:13:17.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisplayAllCustomersComponent.razor",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\Shared\\DisplayAllCustomersComponent.razor",
+              "RelativeDocumentMoniker": "CustomersApp.HMI\\Shared\\DisplayAllCustomersComponent.razor",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\Shared\\DisplayAllCustomersComponent.razor",
+              "RelativeToolTip": "CustomersApp.HMI\\Shared\\DisplayAllCustomersComponent.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T23:11:45.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteConfirmationDialog.razor",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\Shared\\DeleteConfirmationDialog.razor",
+              "RelativeDocumentMoniker": "CustomersApp.HMI\\Shared\\DeleteConfirmationDialog.razor",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\Shared\\DeleteConfirmationDialog.razor",
+              "RelativeToolTip": "CustomersApp.HMI\\Shared\\DeleteConfirmationDialog.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T23:10:22.459Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\Program.cs",
+              "RelativeDocumentMoniker": "CustomersApp.HMI\\Program.cs",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.HMI\\Program.cs",
+              "RelativeToolTip": "CustomersApp.HMI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T23:08:34.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Entities\\Services\\CustomerSeeder.cs",
+              "RelativeDocumentMoniker": "CustomersApp.Entities\\Services\\CustomerSeeder.cs",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Entities\\Services\\CustomerSeeder.cs",
+              "RelativeToolTip": "CustomersApp.Entities\\Services\\CustomerSeeder.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T23:07:59.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Entities\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomersApp.Entities\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Entities\\Entities\\Customer.cs",
+              "RelativeToolTip": "CustomersApp.Entities\\Entities\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T23:07:31.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\CustomerMappingProfile.cs",
+              "RelativeDocumentMoniker": "CustomersApp.Common\\CustomerMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\CustomerMappingProfile.cs",
+              "RelativeToolTip": "CustomersApp.Common\\CustomerMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwCEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T23:07:19.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\Services\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CustomersApp.Common\\Services\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\Services\\CustomerRepository.cs",
+              "RelativeToolTip": "CustomersApp.Common\\Services\\CustomerRepository.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T23:06:56.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "CustomersApp.Common\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\Donigorasso\\Documents\\GitHub\\CustomerApp\\CustomersApp.Common\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "CustomersApp.Common\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T22:51:47.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "WhenOpened": "2024-02-28T22:51:47.315Z"
             }
           ]
         }

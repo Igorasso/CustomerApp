@@ -21,11 +21,21 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 
+if (app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseSwagger();
+    app.UseSwaggerUI((options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "CustomerApp Api");
+    }));
+}
+
 var scope = app.Services.CreateScope();
 var seeder = scope.ServiceProvider.GetRequiredService<CustomerSeeder>();
 seeder.Seed();
 
-
+app.MapControllers();
 app.UseStaticFiles();
 
 app.UseRouting();

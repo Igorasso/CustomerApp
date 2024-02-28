@@ -21,15 +21,8 @@
         customer = await CustomerRepository.GetCustomerAsync(Convert.ToInt32(CustomerId));
         if (customer != null)
         {
-            try
-            {
                 await CustomerRepository.DeleteCustomerAsync(customer.Id);
                 await OnSaveCallback.InvokeAsync();
-            }
-            catch (Exception ex)
-            {
-                // Handle error
-            }
         }
     }
 
