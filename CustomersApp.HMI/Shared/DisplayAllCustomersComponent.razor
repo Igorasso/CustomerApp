@@ -1,0 +1,111 @@
+﻿@page "/display-customers"
+@inject ICustomerRepository CustomerRepository
+@inject NavigationManager navigationManager
+
+<h3>Customers List</h3>
+
+@if (customers != null && customers.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>NIP</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Street</th>
+                <th>Postal Code</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in customers)
+            {
+                <tr>
+                    <td>@customer.Id</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.NIP</td>
+                    <td>@customer.Address.City</td>
+                    <td>@customer.Address.Country</td>
+                    <td>@customer.Address.Street</td>
+                    <td>@customer.Address.PostalCode</td>
+                    <td>
+                        <button class="btn btn-warning" @onclick="() => EditCustomerAsync(customer.Id)">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteCustomerAsync(customer.Id)">Delete</button>
+                        
+                      
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-success" @onclick="() => CreateCustomerAsync()">Create</button>
+
+    <Modal @ref="modal" />
+
+    
+
+}
+else
+{
+    <p>No customers found.</p>
+}
+
+@code {
+    private Modal modal = default!;
+
+
+
+    private IList<CustomerDto>? customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetCustomersAsync();
+    }
+
+    private async Task OnCloseModalClick()
+    {
+        await modal.HideAsync();
+    }
+
+    private async Task OnSaveModalClick()
+    {
+        await modal.HideAsync();
+        await GetCustomersAsync();
+    }
+
+    private async Task GetCustomersAsync()
+    {
+        customers = await CustomerRepository.GetCustomersAsync();
+    }
+
+    private async Task EditCustomerAsync(int customerId)
+    {
+        var parameters = new Dictionary<string, object>();
+        parameters.Add("CustomerId", customerId.ToString());
+        parameters.Add("OnCloseCallback", EventCallback.Factory.Create<MouseEventArgs>(this, OnCloseModalClick));
+        parameters.Add("OnSaveCallback", EventCallback.Factory.Create<MouseEventArgs>(this, OnSaveModalClick));
+
+        await modal.ShowAsync<EditCustomerComponent>(title: "Edit Customer", parameters: parameters);
+
+    }
+    private async Task CreateCustomerAsync()
+    {
+        var parameters = new Dictionary<string, object>();
+        parameters.Add("OnCloseCallback", EventCallback.Factory.Create<MouseEventArgs>(this, OnCloseModalClick));
+        parameters.Add("OnSaveCallback", EventCallback.Factory.Create<MouseEventArgs>(this, OnSaveModalClick));
+
+        await modal.ShowAsync<CreateCustomerComponent>(title: "Create Customer", parameters: parameters);
+    }
+
+    private async Task DeleteCustomerAsync(int customerId)
+    {
+        var parameters = new Dictionary<string, object>();
+        parameters.Add("CustomerId", customerId.ToString());
+        parameters.Add("OnCloseCallback", EventCallback.Factory.Create<MouseEventArgs>(this, OnCloseModalClick));
+        parameters.Add("OnSaveCallback", EventCallback.Factory.Create<MouseEventArgs>(this, OnSaveModalClick));
+
+        await modal.ShowAsync<DeleteConfirmationDialog>(title: "Delete Customer", parameters: parameters);
+    }
+}

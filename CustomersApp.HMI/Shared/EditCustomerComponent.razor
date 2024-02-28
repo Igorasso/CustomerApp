@@ -1,0 +1,65 @@
+﻿@inject ICustomerRepository CustomerRepository
+@inject NavigationManager NavigationManager
+
+@if (customer != null)
+{
+    <div class="popup-container">
+        <div class="popup-content">
+            <div>
+                <label>NIP:</label>
+                <input @bind="customer.NIP" />
+            </div>
+            <div>
+                <label>Name:</label>
+                <input @bind="customer.Name" />
+            </div>
+            <div>
+                <label>City:</label>
+                <input @bind="customer.Address.City" />
+            </div>
+            <div>
+                <label>Country:</label>
+                <input @bind="customer.Address.Country" />
+            </div>
+            <div>
+                <label>Street:</label>
+                <input @bind="customer.Address.Street" />
+            </div>
+            <div>
+                <label>Postal Code:</label>
+                <input @bind="customer.Address.PostalCode" />
+            </div>
+            <button class="btn btn-success" @onclick="UpdateCustomer">Save</button>
+            <button type="button" class="btn btn-primary" @onclick="OnCloseCallback">Close</button>
+        </div>
+    </div>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    [Parameter] public string? CustomerId { get; set; }
+    [Parameter] public EventCallback<MouseEventArgs> OnCloseCallback { get; set; }
+    [Parameter] public EventCallback<MouseEventArgs> OnSaveCallback { get; set; }
+
+
+    private CustomerDto? customer;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customer = await CustomerRepository.GetCustomerAsync(Convert.ToInt32(CustomerId));
+        base.OnInitialized();
+    }
+
+    private async Task UpdateCustomer()
+    {
+        if (customer != null)
+        {
+            await CustomerRepository.UpdateCustomerAsync(customer.Id, customer);
+            await OnSaveCallback.InvokeAsync();
+        }
+    }
+
+}

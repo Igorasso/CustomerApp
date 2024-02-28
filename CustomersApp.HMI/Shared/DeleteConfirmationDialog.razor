@@ -1,0 +1,36 @@
+﻿@inject ICustomerRepository CustomerRepository
+@inject NavigationManager NavigationManager
+
+<div class="confirmation-message" style="font-family: Arial, sans-serif; font-size: 16px; color: #333; margin-bottom: 20px;">
+    <p>Are you sure you want to delete this?</p>
+    <p>This will delete the record of ID: @CustomerId. Once deleted, it cannot be rolled back.</p>
+    <p>Do you want to proceed?</p>
+</div>
+<button class="btn btn-danger" @onclick="DeleteCustomerAsync">Delete</button>
+<button type="button" class="btn btn-primary" @onclick="OnCloseCallback">Close</button>
+
+@code {
+
+    [Parameter] public string? CustomerId { get; set; }
+    [Parameter] public EventCallback<MouseEventArgs> OnCloseCallback { get; set; }
+    [Parameter] public EventCallback<MouseEventArgs> OnSaveCallback { get; set; }
+    private CustomerDto? customer;
+
+    private async Task DeleteCustomerAsync()
+    {
+        customer = await CustomerRepository.GetCustomerAsync(Convert.ToInt32(CustomerId));
+        if (customer != null)
+        {
+            try
+            {
+                await CustomerRepository.DeleteCustomerAsync(customer.Id);
+                await OnSaveCallback.InvokeAsync();
+            }
+            catch (Exception ex)
+            {
+                // Handle error
+            }
+        }
+    }
+
+}

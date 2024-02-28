@@ -1,0 +1,15 @@
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Database.deps.json
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Database.runtimeconfig.json
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Database.dll
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Database.pdb
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.csproj.AssemblyReference.cache
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.AssemblyInfoInputs.cache
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.AssemblyInfo.cs
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.csproj.CoreCompileInputs.cache
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.sourcelink.json
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.dll
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\refint\CustomersApp.Database.dll
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.pdb
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Database.genruntimeconfig.cache
+C:\Users\Donigorasso\source\repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\ref\CustomersApp.Database.dll

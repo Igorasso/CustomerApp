@@ -1,0 +1,15 @@
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Entities.deps.json
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Entities.runtimeconfig.json
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Entities.dll
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\bin\Debug\net6.0\CustomersApp.Entities.pdb
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.csproj.AssemblyReference.cache
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.AssemblyInfoInputs.cache
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.AssemblyInfo.cs
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.sourcelink.json
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.dll
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\refint\CustomersApp.Entities.dll
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.pdb
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\CustomersApp.Entities.genruntimeconfig.cache
+C:\Users\Donigorasso\Source\Repos\CustomersServiceAppBlazor2\CustomersApp.Entities\obj\Debug\net6.0\ref\CustomersApp.Entities.dll

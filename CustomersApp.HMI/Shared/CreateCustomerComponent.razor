@@ -1,0 +1,52 @@
+﻿@inject ICustomerRepository CustomerRepository
+@inject NavigationManager NavigationManager
+
+<EditForm Model="customer">
+    <DataAnnotationsValidator />
+    <div>
+        <label>NIP:</label>
+        <InputText @bind-Value="customer.NIP" />
+    </div>
+    <div>
+        <label>Name:</label>
+        <InputText @bind-Value="customer.Name" />
+    </div>
+    <div>
+        <label>City:</label>
+        <InputText @bind-Value="customer.Address.City" />
+    </div>
+    <div>
+        <label>Country:</label>
+        <InputText @bind-Value="customer.Address.Country" />
+    </div>
+    <div>
+        <label>Street:</label>
+        <InputText @bind-Value="customer.Address.Street" />
+    </div>
+    <div>
+        <label>Postal Code:</label>
+        <InputText @bind-Value="customer.Address.PostalCode" />
+    </div>
+    <button class="btn btn-success" @onclick="CreateCustomerAsync">Save</button>
+    <button type="button" class="btn btn-primary" @onclick="OnCloseCallback">Close</button>
+</EditForm>
+
+
+@code {
+    [Parameter] public EventCallback<MouseEventArgs> OnCloseCallback { get; set; }
+    [Parameter] public EventCallback<MouseEventArgs> OnSaveCallback { get; set; }
+
+    private CustomerDto customer = new CustomerDto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+        await Task.CompletedTask;
+    }
+
+    private async Task CreateCustomerAsync()
+    {
+            await CustomerRepository.CreateCustomerAsync(customer);
+            await OnSaveCallback.InvokeAsync();
+    }
+}
